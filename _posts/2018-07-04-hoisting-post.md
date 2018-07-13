@@ -79,6 +79,7 @@ console.log의 출력값은 zoro가 나온다. 왜 첫 번째라인에 코드에
 
 <h2>strict mode</h2>
 엄격 모드에서는 선언하지 않은 변수를 사용할 경우 에러가 난다.
+
 ```bash
 'use strict';
 console.log(number);
