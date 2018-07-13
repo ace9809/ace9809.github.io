@@ -28,14 +28,14 @@ ace(); //fire fist
 function ace() {
     console.log('fire fist');
 }
-```bash
+```
 
 ```bash
 ///함수 표현식
 var ace = function() {
     console.log('fire fist');
 }
-```bash
+```
 
 변수명과 함수명이 같고 호이스트가 될 때 함수 선언은 변수 선언보다 우선순위가 높다.
 ```bash
