@@ -86,6 +86,7 @@ console.log(number);
 var number = 4; //Uncaught ReferenceError: number is not defined
 ```
 <h2>es6</h2>
+
 ```bash
 console.log(fruit); // Uncaught ReferenceError: fruit is not defined ...
 let fruit = 'apple';
