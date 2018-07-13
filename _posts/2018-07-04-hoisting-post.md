@@ -54,7 +54,7 @@ function pirate() {
     console.log(hello);
 }
 console.log(typeof pirate); //string
-```bash
+```
 
 ```bash
 var pirate = 'luffy';
@@ -71,7 +71,7 @@ function strawHat() {
     var pirate = 'zoro';
     console.log(pirate);
 }
-```bash
+```
 
 console.log의 출력값은 zoro가 나온다. 왜 첫 번째라인에 코드에서 전역 변수를 선언 했음에도 불구하고 출력값이 zoro가 나오는 이유는 자바스크립트는 function scope이기 때문이다.
 코드를 보면 전역변수로 pirate의 값을 luffy로 주고 함수안에 pirate라는 변수를 또 정의했다.  이는 전역변수인 pirate와는 다른 strawHat의 지역변수를 새롭게 만든 것이기 때문에
